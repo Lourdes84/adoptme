@@ -1,0 +1,268 @@
+/* -- -- CUSTOM PROPIERTIES -- --*/
+
+:root {
+    --colorPrimario: rgb(153,156,153);
+    --colorDark: #343a40; 
+    --backgroundLight: rgba(255, 255, 255, 0.6);
+} 
+
+/* -- -- GLOBALES -- --*/
+
+body {
+    padding-top: 99px;
+    overflow-x: hidden;
+}
+
+/* -- -- MENU NAVEGACION -- --*/
+
+header {
+    z-index: 10;
+}
+
+.navbar {
+    padding: 30px;
+    height:100px;
+}
+
+
+.navbar-nav {
+    background: var(--colorDark); 
+    
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        width: 250px;
+        float: right;
+    }
+}
+
+.nav-link {
+    margin-left: 10px;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 10px;
+}
+.nav-item {
+    margin-right: 20px;
+    letter-spacing: 2px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* -- -- SECCION CAROUSEL -- --*/
+
+.carousel-indicators {
+    z-index: 2;
+}
+
+.carousel-item img{
+    width:100%;
+    height: 600px; 
+    object-fit: cover;
+}
+
+.img-carousel-3 {
+    object-position: 43%;
+}
+
+.img-carousel-4 {
+    object-position: 58%;
+}
+
+/* -- -- SECCION PRINCIPAL -- --*/
+
+.info-main {
+    margin-left: -60px;
+}
+
+@media (max-width:767px){
+    .info-main {
+        margin-left: 0;
+    }
+}
+
+.info-main2 {
+    margin-right: -60px;
+    z-index: 2;  
+}
+
+.bg-light-2 {
+    background: #f1f3f5;
+}
+
+/* -- -- SECCION CARDS -- --*/
+
+.bg-cards {
+    background: var(--colorPrimario);
+}
+
+.card-style-img {
+    width: 150px;
+    height:150px;
+    margin-top: -50px;
+    object-fit: cover;
+}
+
+.card-style-body {
+    box-shadow: 5px 5px 15px #000;
+    background: #f8f9fa;
+    font-size: 12px;
+    transition: all .3s ease-in;
+}
+
+.card-style-body:hover {
+    background: var(--colorDark);
+    color: #fff;
+}
+
+/* -- -- SECCION LISTA -- --*/
+
+.section-bg {
+    background-image: url(../assets/img/seccion-lista.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.section-bg .list-group-item,
+.section-text{
+    background: var(--backgroundLight);
+}
+
+/* -- -- SECCION MARCAS -- --*/
+
+.marcas {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.marcas__item {
+    display: inline-block;
+}
+
+.marcas__link img{
+    width: 250px;
+}
+
+/* -- -- FOOTER -- --*/
+
+footer {
+    height: 50px;
+}
+
+footer .navbar-brand {
+    font-size: 20px;
+}
+.copyright {
+    margin: 0;
+}
+
+/* -- -- ---- PAGINAS ADICIONALES ---- -- -- */
+
+/* -- -- BLOG -- --*/
+
+.img-jumbotron  {
+    background-image: url(../assets/img/blog1.jpg);
+    background-size: cover;
+    background-position: center top 40%;
+}
+
+.sabias-info {
+    background: var(--colorPrimario);
+}
+
+/* -- -- ENLACES -- --*/
+
+.bg-enlaces {
+    background-image: url(../assets/img/walpaper-enlaces.jpg);
+}
+.bg-table {
+    background: rgba(255, 255, 255, 0.8);
+}
+.bg-thead {
+    background: var(--colorPrimario);
+}
+
+
+/* -- -- CONTACTO -- --*/
+
+.bg-contacto {
+    background-image: url(../assets/img/wallpaper-contacto.jpg);
+    background-position: top center;
+}
+
+.form {
+    background: var(--backgroundLight);
+    padding: 40px 15px;
+}
+
+.title-contacto {
+    background: var(--backgroundLight);
+    margin-top: 15px;
+}
+
+.fa-exclamation-triangle {
+    margin-right: 5px;
+}
+
+.form-input {
+    position: relative;
+}
+
+.form-input__error {
+    display: none;
+    margin-top: 12px;
+}
+
+.form-input__mensaje {
+    display: none;
+}
+
+.form__validacion-estado {
+    position: absolute;
+    right: 10px;
+    top: 11px;
+    opacity: 0;
+}
+
+.form-input__exit {
+    margin-top: 12px;
+    display: none;
+}
+
+/* -VALIDACIÓN CAMPOS- */
+
+.form-input__error-activo {
+    display: block;
+}
+
+.form-input__mensaje-activo{
+    display: block;
+}
+
+.form-input__exit-activo {
+    display: block;
+}
+
+.form-group-correcto .form__validacion-estado {
+    color: #1ed12d;
+    opacity: 1;
+}
+
+.form-group-incorrecto .form-label {
+    color: #bb2929;
+    font-weight: bold;
+}
+.form-group-incorrecto .form__validacion-estado{
+    color: #bb2929;
+    opacity: 1;
+}
+.form-group-incorrecto .form-control {
+    border: 3px solid #bb2929;
+}

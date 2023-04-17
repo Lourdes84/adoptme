@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>AdoptME</title>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <header class="col p-0">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                    <img class="logo"src="assets/img/huella.png" alt="">
+                    <a href="index.html" class="navbar-brand">Adopt<span class="text-warning">ME</span></a>
+                    
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button> 
+
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                               <li class="nav-item active">
+                                    <a href="index.html" class="nav-link">
+                                        Inicio
+                                    </a>
+                               </li>
+                               <li class="nav-item">
+                                    <a href="enlaces.html" class="nav-link">
+                                        Enlaces
+                                    </a>
+                               </li>
+                               <li class="nav-item">
+                                    <a href="blog.html" class="nav-link">
+                                        Blog
+                                    </a>
+                               </li>
+                               <li class="nav-item">
+                                    <a href="contacto.html" class="nav-link">
+                                        Contacto
+                                    </a>
+                                </li>
+                            </ul> 
+                        </div>            
+                </nav>
+            </header>
+        </div>
+
+        <section class="row">
+            <div class="col p-0">
+                <div class="carousel slide" id="principal-carousel" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-target="#principal-carousel" data-slide-to="0"></li>
+                        <li class="active" data-target="#principal-carousel" data-slide-to="1"></li>
+                        <li class="active" data-target="#principal-carousel" data-slide-to="2"></li>
+                        <li class="active" data-target="#principal-carousel" data-slide-to="3"></li>
+                    </ol>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-interval="10000">
+                                <img class="img-carousel-1" src="assets/img/slider-1.jpg" alt="Imagen slider 1">
+                            </div>
+                            <div class="carousel-item" data-interval="10000">
+                                <img class="img-carousel-2"src="assets/img/slider-2.jpg" alt="Imagen slider 2">
+                            </div>
+                            <div class="carousel-item" data-interval="10000">
+                                <img class="img-carousel-3" src="assets/img/slider-3.jpg" alt="Imagen slider 3">
+                            </div>
+                            <div class="carousel-item" data-interval="10000">
+                                <img class="img-carousel-4" src="assets/img/slider-4.jpg" alt="Imagen slider 4">
+                            </div>
+                        </div>
+
+                    <a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a href="#principal-carousel" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+<main>
+
+    <section class="container mt-5">
+        <h1 class="text-center">AdoptME</h1>
+        <hr>
+        <div class="row mt-5 align-items-center">
+            <div class="col-md-6">
+                <img class="img-fluid" src="assets/img/friends.jpg" alt="imagen por que adoptar">
+            </div>
+            <div class="info-main col-md-6 p-4 bg-light-2">
+                <h2>¿Por qué adoptar?</h2>
+                <p class="text-justify">Hay muchas razones por las cuales deberías adoptar. La principal es que estarás ayudando a otro ser vivo, que probablemente no lo haya pasado bien, a tener un nuevo hogar dónde pueda ser feliz. La recompensa que te llevarás es que ese cariño que inviertas en tu nuevo amigo será devuelto por mil.</p>
+            </div>
+        </div>
+
+        <div class="row mt-5 align-items-center">
+            <div class="info-main2 col-md-6 p-4 bg-light-2">
+                <h2>Adopción responsable</h2>
+                <p class="text-justify">Una adopción responsable implica deberes diarios con tu mascota que debes asumir durante toda su vida. Implica preocuparte por su bienestar diario. No se trata sólo de darle unas cuantas caricias al día, se trata de alimentarle, educarle, jugar con él, mantenerle limpio, etc. En resumen, signifca que debes invertir tiempo para que tu nuevo amigo sea feliz.</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-fluid" src="assets/img/friends2.jpg" alt="imagen adopcion responsable">
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid text-center my-5">
+            <div class="row">
+                <div class="col">
+                    <h3>Consejos</h3>
+                    <hr>
+                </div>
+            </div>
+            <div class="row bg-cards mt-4">
+                <div class="col-12">
+                    <div class="card-group justify-content-center my-5">
+
+                        <!-- --- CARD # 1 --- -->
+
+                        <figure class="card-style-body card-body text-center col-md-3 col-lg-2 mr-md-5">
+                            <img class="card-style-img img-card card-img-top img-fluid rounded-circle img-thumbnail" src="assets/img/card1.jpg" alt="imagen card 1">
+                            <h4 class="card-title mt-3">Salud</h4>
+                            <h6 class="text-muted">Veterinario</h6>
+                            <figcaption class="card-text">Todos los animales, estén en la etapa de la vida en la que estén, necesitarán ciertos cuidados para mantener su salud.
+                                 <a href="#" data-toggle="modal" data-target="#cardModal">Leer más...</a>
+                            </figcaption>
+                                <div class="modal fade" id="cardModal" tabindex="-1" role="dialog" aria-labelledby="cardModal" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title text-dark">Salud</h5>
+                                                <button class="close" data-dismiss="modal" aria-label="cerrar">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <p class="text-dark text-justify">Todos los animales, estén en la etapa de la vida en la que estén, necesitarán ciertos cuidados para mantener su salud. Pon de tu parte para mantener el calendario de vacunación y desparasitación al día. Además, aunque tu peludo goce de buena salud acude, al menos, una vez al año al veterinario para que le hagan una revisión general, hay enfermedades que no tienen síntomas evidentes y pueden estar dañando a tu compañero.
+                                                            Si tienes un cachorro tendrás que atender a las primeras vacunas, tal vez alguna diarrea que sufra por el cambio de alimentación al llegar a tu hogar, problemas en los dientes… Si tu mascota es anciana deberás prestar atención a problemas en sus huesos, su oído y visión, un estómago más delicado…
+                                                            En cualquier caso (y a cualquier edad), si notas que tu animal cambia de repente de comportamiento y no actúa como normalmente o muestra signos de padecer un problema, acude con rapidez al veterinario. Cuanto antes acudáis al profesional, antes se podrá poner tratamiento al trastorno que sufre y mejor serán los resultados.</p>
+                                                        </div>   
+                                                    </div>
+                                                </div>
+                                            </div>    
+                                        </div>   
+                                    </div>   
+                                </div>
+                        </figure>
+
+                        <!-- --- CARD # 2 --- -->
+
+                        <figure class="card-style-body card-body text-center col-md-3 col-lg-2 mr-md-5">
+                            <img class="card-style-img img-card card-img-top img-fluid rounded-circle img-thumbnail" src="assets/img/card2.jpg" alt="imagen card 2">
+                            <h4 class="card-title mt-3">Alimentación</h4>
+                            <h6 class="text-muted">Cuida lo que come</h6>
+                            <figcaption class="card-text">Los avances en este campo son increíbles, puedes encontrar un producto muy especializado en las características de tu animal. 
+                                <a href="#" data-toggle="modal" data-target="#cardModal2">Leer más...</a>
+                            </figcaption> 
+                                <div class="modal fade" id="cardModal2" tabindex="-1" role="dialog" aria-labelledby="cardModal2" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title text-dark">Alimentación</h5>
+                                                <button class="close" data-dismiss="modal" aria-label="cerrar">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <p class="text-dark text-justify">Los avances en este campo son increíbles, puedes encontrar un producto muy especializado en las características de tu animal. Los de perro y gato están clasificados en húmedos o secos, según el tipo de pelo, según la edad del animal, específicos para una enfermedad, para hacer dieta, si está esterilizado o no…
+                                                            Consulta con el veterinario de tu animal para saber qué pienso es el mejor para tu compañero dependiendo de las cualidades y/o problemas que tenga.</p>
+                                                        </div>   
+                                                    </div>
+                                                </div>
+                                            </div>    
+                                        </div>   
+                                    </div>   
+                                </div>
+                        </figure>
+
+                        <!-- --- CARD # 3 --- -->
+
+                        <figure class="card-style-body card-body text-center col-md-3 col-lg-2 mr-lg-5">
+                            <img class="card-style-img img-card card-img-top img-fluid rounded-circle img-thumbnail" src="assets/img/card3.jpg" alt="imagen card 3">
+                            <h4 class="card-title mt-3">Higiene</h4>
+                            <h6 class="text-muted">Limpieza</h6>
+                            <figcaption class="card-text">Cuidar la higiene de tu mascota evitará que caiga en ciertas enfermedades, como la dermatitis.
+                                Si tu mascota tiene pelo, cepíllalo un rato casi a diario para que no se creen enredos, 
+                                <a href="#" data-toggle="modal" data-target="#cardModal3">Leer más...</a>
+                            </figcaption>
+                                <div class="modal fade" id="cardModal3" tabindex="-1" role="dialog" aria-labelledby="cardModal3" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title text-dark">Higiene</h5>
+                                                <button class="close" data-dismiss="modal" aria-label="cerrar">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <p class="text-dark text-justify"> Cuidar la higiene de tu mascota evitará que caiga en ciertas enfermedades, como la dermatitis.
+                                                            Si tu mascota tiene pelo, cepíllalo un rato casi a diario para que no se creen enredos, se caigan los pelos muertos y también la pequeña suciedad que se haya podido meter entre el pelaje. Baña a tu animal una vez al mes, hazlo con champús especiales para su especie y tipo de pelo. Después échale colonia, las hay antiparasitarias y con muy buen olor.
+                                                            Para un gato, puedes acostumbrarle de pequeño a los baños con agua, si no lo consigues y es reacio al líquido elemento, deja que se acicale solo, pero protégele ante las bolas de pelo con un producto de malta.
+                                                            Si tu animal es un roedor que, como las chinchillas, se bañan con arena, proporcionale un rato de higiene un par de veces a la semana. Ella solita se dará sus baños y tú disfrutarás viéndolo.
+                                                            Si tienes un ave en casa, existen bañeritas poco profundas para que pongas agua y ellos solos se acicalen el plumaje. A parte, hay productos antiparasitarios para que a parte de limpios estén protegidos.</p>
+                                                        </div>   
+                                                    </div>
+                                                </div>
+                                            </div>    
+                                        </div>   
+                                    </div>   
+                                </div>
+                        </figure>
+
+                        <!-- --- CARD # 4 --- -->
+
+                        <figure class="card-style-body card-body text-center col-md-10 col-lg-2">
+                            <img class="card-style-img img-card card-img-top img-fluid rounded-circle img-thumbnail" src="assets/img/card4.jpg" alt="imagen card 4">
+                            <h4 class="card-title mt-3">Juego</h4>
+                            <h6 class="text-muted">Ejercicio físico</h6>
+                            <figcaption class="card-text">Un animal necesita al menos un rato de juego al día, tanto para activar su mente como para mantener la agilidad de su físico. 
+                                <a href="#" data-toggle="modal" data-target="#cardModal4">Leer más...</a>
+                            </figcaption>
+                                <div class="modal fade" id="cardModal4" tabindex="-1" role="dialog" aria-labelledby="cardModal4" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title text-dark">Juego</h5>
+                                                <button class="close" data-dismiss="modal" aria-label="cerrar">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <p class="text-dark text-justify">Un animal necesita al menos un rato de juego al día, tanto para activar su mente como para mantener la agilidad de su físico. Por supuesto, deberás adaptar el ejercicio a las características de tu animal.
+                                                            Si tienes un perro activo, sácale a corretear al parque al menos dos veces al día; si tienes un gato, motívale para que juegue a cazar en casa; si es un roedor, abastécele de productos específicos para mover sus mandíbulas y sácale de su hogar de vez en cuando para que estire las patas e interactúe contigo, y si es un ave, consíguele juguetes para cologar en su casita y déjale batir las alas por una habitación de vez en cuando.</p>
+                                                        </div>   
+                                                    </div>
+                                                </div>
+                                            </div>    
+                                        </div>   
+                                    </div>   
+                                </div>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <section class="container text-center mt-5">
+        <h3>Preguntas Frecuentes</h3>
+        <hr>
+        <div class="row mt-5 align-items-center">
+            <div class="col-md-6">
+                <img class="img-main img-fluid" src="assets/img/FAQ.jpg" alt="imagen preguntas frecuentes">
+            </div>
+            <div class="info-main col-md-6 p-4 bg-light-2">
+                <p class="text-justify">Adoptar una mascota, sea perro o gato es un paso importante. Cuando decidimos hacernos cargo de un animal implica una responsabilidad, tendremos que estar preparados para incluir un nuevo miembro en nuestra familia y decididos a darle el amor, cariño y cuidados que se merecen. Antes de tomar una decisión tan importante, te respondemos a las 4 preguntas más comunes en lo que respecta a la adopción de perros o gatos.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container-fluid section-bg mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-4 py-5">
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">¿En qué consiste el proceso de adopción?</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">¿Quién puede adoptar?</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">¿Cómo adopto un animal de una protectora?</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">¿Qué requisitos hay que cumplir para adoptar?</a>
+                    </div>
+                    </div>
+                <div class="col-12 col-md-8 section-text mb-5 mb-md-0">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                            <h4>Proceso de adopción</h4>
+                            <p class="text-justify">El proceso de adopción es un acto, a través del cual, una persona mayor de edad se hace cargo de un animal de la protectora con la finalidad de darle un hogar y cuidarlo.</p>
+                        </div>
+                        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                            <h4>Puede adoptar...</h4>
+                            <p class="text-justify">Cualquier persona mayor de edad que se comprometa a ser un buen dueño.<p>
+                        </div>
+                        <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                            <h4>Adoptar un animal</h4>
+                            <p class="text-justify">En la sección de <a href="enlaces.html">Enlaces</a> de esta web, podrás encontrar una serie de enlaces de diferentes webs de protectoras, dirigite a ellos para que te puedan explicar el proceso. Recuerda que para adoptar debes ser mayor de edad.</p>
+                        </div>
+                        <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                            <h4>Requisitos mínimos</h4>
+                            <p class="text-justify">Los requisitos mínimos que os van a solicitar en cualquier protectora son: Ser mayor de edad, tener un domicilio en el que poder tener el animal adoptado, firmar un contrato de adopción y asumir los costes veterinarios.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container text-center mt-5">
+        <div class="row">
+            <div class="col">
+                <h3>Marcas de Confianza</h3>
+                <hr>
+                <ul class="marcas">
+                    <li class="marcas__item">
+                        <a href="https://www.royalcanin.com/es" target="_blank" class="marcas__link">
+                            <img src="assets/img/marca1.jpg" alt="logo royal canin">
+                        </a>
+                    </li>
+                    <li class="marcas__item">
+                        <a href="https://www.affinity-petcare.com/advance/es" target="_blank" class="marcas__link">
+                            <img src="assets/img/marca2.jpg" alt="logo affinity">
+                        </a>
+                    </li>
+                    <li class="marcas__item">
+                        <a href="https://www.purina.es/proplan/" target="_blank" class="marcas__link">
+                            <img src="assets/img/marca3.jpg" alt="logo purina">
+                        </a>
+                    </li>
+                    <li class="marcas__item">
+                        <a href="https://www.hillspet.es/" target="_blank" class="marcas__link">
+                            <img src="assets/img/marca4.jpg" alt="logo hillspet">
+                        </a>
+                    </li>
+                </ul>
+            </div> 
+        </div>
+
+    </section>
+</main>
+
+    <footer class="container-fluid bg-dark text-white mt-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-8">
+                <p class="copyright pt-0 pt-sm-2 ">&copy; Todos los derechos reservados - Lourdes González </p>
+            </div>
+            <div class="col-4">
+                <img class="img-fluid logo_footer float-right d-none d-md-block pt-1" src="assets/img/footer-logo.jpg" alt="logo adoptme">
+            </div>
+        </div>
+        
+    </footer>
+ 
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
