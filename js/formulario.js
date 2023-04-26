@@ -50,15 +50,15 @@ const validarCampo = (expresion, input, campo) => {
     if(expresion.test(input.value)){
         document.getElementById(`grupo-${campo}`).classList.remove('form-group-incorrecto') 
         document.getElementById(`grupo-${campo}`).classList.add('form-group-correcto')
-        document.querySelector(`#grupo-${campo} i`).classList.add('fa-check-circle')
-        document.querySelector(`#grupo-${campo} i`).classList.remove('fa-times-circle')
+        document.querySelector(`#grupo-${campo} svg`).classList.add('fa-check-circle')
+        document.querySelector(`#grupo-${campo} svg`).classList.remove('fa-times-circle')
         document.querySelector(`#grupo-${campo} .form-input__error`).classList.remove('form-input__error-activo') 
         campos[campo] = true
     } else {
         document.getElementById(`grupo-${campo}`).classList.add('form-group-incorrecto')
         document.getElementById(`grupo-${campo}`).classList.remove('form-group-correcto')
-        document.querySelector(`#grupo-${campo} i`).classList.add('fa-times-circle')
-        document.querySelector(`#grupo-${campo} i`).classList.remove('fa-check-circle') 
+        document.querySelector(`#grupo-${campo} svg`).classList.add('fa-times-circle')
+        document.querySelector(`#grupo-${campo} svg`).classList.remove('fa-check-circle') 
         document.querySelector(`#grupo-${campo} .form-input__error`).classList.add('form-input__error-activo')
         campos[campo] = false
     }

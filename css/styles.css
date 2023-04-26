@@ -123,7 +123,6 @@ header {
 .card-style-body {
     box-shadow: 5px 5px 15px #000;
     background: #f8f9fa;
-    font-size: 12px;
     transition: all .3s ease-in;
 }
 
@@ -206,6 +205,9 @@ footer .navbar-brand {
 .bg-contacto {
     background-image: url(../assets/img/wallpaper-contacto.jpg);
     background-position: top center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .form {
